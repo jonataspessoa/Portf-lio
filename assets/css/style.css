@@ -108,8 +108,8 @@ header .container {
 
 .description {
 	width: 1200px;
-	height: 100vh;
-	background-color: var(--threecolor);
+	height: 110vh;
+	background-color: #CCC;
 	display: flex;
 	justify-content: space-between;
 }
@@ -124,8 +124,8 @@ header .container {
 .description .jobdescription {
 	margin-left: 30px;
 	margin-top: 150px;
-
 }
+
 
 .jobdescription h3,
 .jobdescription h1 {
@@ -142,5 +142,123 @@ header .container {
 	font-weight: 600;
 	text-align: left;
 
+}
 
+
+.techdescription {
+	width: 1200px;
+	height: 100vh;
+	background-color: var(--threecolor);
+	display: flex;
+	flex-direction: column;
+}
+
+.techname {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+	line-height: 10px;
+}
+
+.techname h1 {
+	font-family: Roboto mono;
+	font-size: 35px;
+	font-weight: bold;
+	color: var(--firstcolor);
+}
+
+
+.techname h3 {
+	font-family: Roboto mono;
+	font-size: 25px;
+	font-weight: 300;
+	color: var(--firstcolor);
+}
+
+
+.techimage {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+
+.techdescription img {
+
+	width: 130px;
+	height: 150px;
+	margin-top: 80px;
+	margin-right: 40px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+
+.techimage .htmldesc {
+	display: block;
+	background-color: #ff5722;
+	padding: 10px;
+	width: 110px;
+	margin-top: 10px;
+	margin-left: 40px;
+	border: 1px solid #555;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.techimage .htmldesc:hover {
+	display: none ;
+}
+
+
+.techimage .cssdesc {
+	display: block;
+	background-color:#2196f3;
+	padding: 10px;
+	width: 110px;
+	margin-top: 15px;
+	margin-left: 40px;
+	border: 1px solid #555;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.techimage .jsdesc {
+	display: block;
+	background-color: #ffdf00;
+	padding: 10px;
+	width: 110px;
+	margin-top: 15px;
+	margin-left: 40px;
+	border: 1px solid #555;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.techimage .gitdesc {
+	display: block;
+	background-color: #fc573b;
+	padding: 10px;
+	width: 110px;
+	margin-top: 15px;
+	margin-left: 40px;
+	border: 1px solid #555;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.techimage .githubdesc {
+	display: block;
+	background-color: #111;
+	color: #FFF;
+	padding: 10px;
+	width: 110px;
+	margin-top: 15px;
+	margin-left: 40px;
+	border: 1px solid #555;
+	border-radius: 10px;
+	text-align: center;
 }
