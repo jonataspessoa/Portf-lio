@@ -8,6 +8,7 @@
 
 body {
 	margin: 0;
+	position: relative;
 	box-sizing: border-box;
 	background-color: #000;
 	display: flex;
@@ -68,8 +69,8 @@ header .container {
 }
 .banner .container img {
 	padding-right: 100px;
-	width: 450px;
-	height: calc(100vh - 80px);
+	width: 400px;
+	height: 550px;
 	background-size: cover;
 }
 
@@ -105,8 +106,41 @@ header .container {
 }
 
 
-.jobdescription {
+.description {
 	width: 1200px;
+	height: 100vh;
 	background-color: var(--threecolor);
+	display: flex;
+	justify-content: space-between;
 }
 
+.description img {
+	width:605px;
+	height: 500px;
+	margin-top: 85px;
+	margin-left: 10px;
+}
+
+.description .jobdescription {
+	margin-left: 30px;
+	margin-top: 150px;
+
+}
+
+.jobdescription h3,
+.jobdescription h1 {
+	color: var(--firstcolor);
+	font-family: Roboto mono;]
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 10px;
+}
+
+.jobdescription p {
+	color: var(--firstcolor);
+	font-family: Roboto mono;
+	font-weight: 600;
+	text-align: left;
+
+
+}
